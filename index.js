@@ -1,19 +1,4 @@
-/*let name=document.querySelector(".inputh1");
-let Uname=document.querySelector(".un")
-name.onclick=function(){
-    if(Uname.value.length<9)
-    {
-       Uname.style.border="1px solid red";
-       //name.style="margin:5px 0px 0px 110px;border:1px solid black;background-color:white;color:red;padding:2px;"
-       name.innerText="please fill up the form";
-       Uname.focus();
 
-    }
-}*/
-/*name.addEventListener('textInput',()=>{
-    name.style="border:1px solid silver;"
-    Uname.style.display="none";  
-})*/
 let name=document.querySelector('#un');
 let email=document.querySelector('#en');
 let phno=document.querySelector('#pn');
@@ -25,24 +10,7 @@ let ename=document.querySelector('.inputh2');
 let pname=document.querySelector('.inputh3');
 let pasname=document.querySelector('.inputh4');
 let cpname=document.querySelector('.inputh5');
-/*btn.onclick=function(){
-    if(name.value.length <5)
-    {
-        name.style="border:1px solid red;"
-        Uname.style.display="block";
-        Uname.innerText="Enter atleast 5 Chrs"
-        Uname.style="margin:5px 0px 0px 110px;border:1px solid black;background-color:white;color:red;padding:2px;";   
-         }
-         else{
-            name.addEventListener('textInput',()=>{
-                name.style="border:1px solid silver;"
-                Uname.style.display="none";
-                Uname.innerText="" ;  
-            }
-            )
-         }
-}
-*/
+
 name.addEventListener('textInput',()=>{
     if(name.value.length <5)
     {
